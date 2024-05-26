@@ -13,6 +13,28 @@ import java.util.Scanner;
  * racecar.
  */
 public class TASK1 {
-     
+    
+    public static String palindromo() {
+
+        System.out.print("Digite uma palavra, frase, número ou sequência de caracteres: ");
+        Scanner scan = new Scanner(System.in);
+        String stringEntrada = scan.nextLine().replace(" ", "");
+        scan.close();
+ 
+        StringBuilder builder = new StringBuilder(String.valueOf(stringEntrada));
+        builder.reverse();
+        String stringInvertida = builder.toString();
+ 
+        if (stringEntrada.equals(stringInvertida)) {
+ 
+            return "É um palindromo";
+        }
+        return "Não é um palindromo";
+     }
+ 
+     public static void main(String[] args) {
+ 
+         System.out.println(palindromo());
+     }
  
 }
