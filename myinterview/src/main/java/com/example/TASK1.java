@@ -13,7 +13,7 @@ import java.util.Scanner;
  * racecar.
  */
 public class TASK1 {
-    
+
     public static String palindromo() {
 
         System.out.print("Digite uma palavra, frase, número ou sequência de caracteres: ");
