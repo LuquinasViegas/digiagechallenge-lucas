@@ -68,7 +68,7 @@ public static String URL = "https://3ospphrepc.execute-api.us-west-2.amazonaws.c
                         .build();
 
             String destino = "" + nomeArquivo;
-            //s3.putObject(BUCKET, destino, nomeArquivo);
+            s3.putObject(BUCKET, destino, nomeArquivo);
 
         } catch (IOException e){
             System.out.println(e.getMessage());
