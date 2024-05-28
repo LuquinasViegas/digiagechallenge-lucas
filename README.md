@@ -10,37 +10,41 @@
  - Meu [Github](https://github.com/LuquinasViegas)
 
  Em 2017, conclui um curso de Desenvolvedor de Jogos, onde minha paixão pela área de Tecnologia da Informação se iniciou. Em seguida, iniciei minha experiência no
-  mercado de trabalho em uma fábrica de tecelagem. 
- Em 2021, fui chamado para o exército para servir durante meu ano obrigatório, foi onde adquiri muitas experiências de vida, como uma nova educação, trabalho em
-  equipe, comprometimento, responsabilidade. Após o término do ano obrigatório do exército, entrei em uma loja de estofados onde trabalho atualmente, na área de
+  mercado de trabalho em uma fábrica de tecelagem. 
+ Em 2021, fui chamado para o exército para servir durante meu ano obrigatório, foi onde adquiri muitas experiências de vida, como uma nova educação, trabalho em
+  equipe, comprometimento, responsabilidade. Após o término do ano obrigatório do exército, entrei em uma loja de estofados onde trabalho atualmente, na área de
   vendas.
- Mas não era isso que eu queria para mim, não senti paixão fazendo isso, senti como uma obrigação para estar lá para pagar contas, para mim não está certo viver 
-  Fazendo algo que não gosta ou não te dê motivação, me lembrei do ano em que estava desenvolvendo no curso de jogos, onde eu gostei de programar por horas, por mais
+ Mas não era isso que eu queria para mim, não senti paixão fazendo isso, senti como uma obrigação para estar lá para pagar contas, para mim não está certo viver 
+ Fazendo algo que não gosta ou não te dê motivação, me lembrei do ano em que estava desenvolvendo no curso de jogos, onde eu gostei de programar por horas, por mais
   desafiador que seja, é algo que eu gosto. Então, iniciei minha faculdade e procurei um curso que me interesasse, escolhi Jogos Digitais para mim, foi a escolha certa, consigo ter um passatempo para um dia, fazer um jogo indie, e também encontrar um emprego na área de programação.
- Sou uma pessoa reservada e às vezes me passo por tímido. Quando estou em casa, gosto de ter a minha privacidade, estudando, jogando, programando ou até mesmo
-  assistindo. Sou focado naquilo que me motiva e não desisto até conseguir. Às vezes sou um pouco inquieto, um pouco agitado, um pouco ansioso, mas sempre com
+ Sou uma pessoa reservada e às vezes me passo por tímido. Quando estou em casa, gosto de ter a minha privacidade, estudando, jogando, programando ou até mesmo
+  assistindo. Sou focado naquilo que me motiva e não desisto até conseguir. Às vezes sou um pouco inquieto, um pouco agitado, um pouco ansioso, mas sempre com
   pensamentos positivos e acredito que o que é para dar certo, vai dar certo!
- Mas também quando tem algum assunto que me envolve, eu me solto facilmente.
+ Mas também quando tem algum assunto que me envolve, eu me solto facilmente.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## SQL
- Para dar inicio ao projeto do banco de dados fiz o download do sql workbench.
- - download [MySQLWorkbench](https://cdn.mysql.com//Downloads/MySQLGUITools/mysql-workbench-community-8.0.36-winx64.msi)
+ Para dar início ao projeto do banco de dados, fiz o download do sql workbench.
+ - Download [MySQLWorkbench](https://cdn.mysql.com//Downloads/MySQLGUITools/mysql-workbench-community-8.0.36-winx64.msi)
  Fiz o login com o banco de dados.
- SQL com banco de dados foi algo novo no qual eu não conhecia, fui aprendendo enquanto fazia o programação
+ SQL com banco de dados foi algo novo no qual eu não conhecia, fui aprendendo enquanto fazia a programação.
 
- ### 1. Separação Por Genero.
- Count (*) para a contagem de funcionarios, e no grupo de generos fiz a separação para saber quantos funcionarios "M" e "F" separando por generos.
+ ### 1. Separação Por gênero.
+ Count (*) para a contagem de funcionários, e no grupo de gêneros fiz a separação para saber quantos funcionários "M" e "F" separando por gêneros.
 
- ### 2. Quantidade De Funcionario Por Gênero, Ano e Aniversario.
- Count (*) para a contagem de funcionarios, e sera feita a separação por gênero ano e aniversario do funcionario, o codigó esta dando erro por excesso de tempo de execução, como ainda não conheço muito sobre SQl não consegui resolver esse detalhe, mas fazendo a separação de cada uma das categorias da tabela com o mesmo codigo ele me apresenta sem erros o a quantidade de funcionarios, ano e aniversario.
+ ### 2. Quantidade De Funcionário Por Gênero, Ano e Aniversário.
+ Count (*) para a contagem de funcionários, e será feita a separação por gênero ano e aniversario do funcionário, o código está dando erro por excesso de tempo de
+  execução, como ainda não conheço muito sobre SQl não consegui resolver esse detalhe, mas fazendo a separação de cada uma das categorias da tabela com o mesmo código ele me apresenta sem erros a quantidade de funcionários, ano e aniversario.
 
  ### 3. Media Salarial, Valor Max e Min Separado Por Gênero.
- Selecionei o maior e menor salario separada por gênero, e a media de salario separado por gênero, usei LEFT JOIN para juntar as duas tabelas de salarios e funcionarios
+ Selecionei o maior e menor salário separado por gênero, e a média de salário separado por gênero, usei LEFT JOIN para juntar as duas tabelas de salários e
+ funcionários.
 
 
  - [Video](https://drive.google.com/file/d/1HS85wvUScABvsSHe-utMaj7rgP-Pc2GE/view?usp=sharing)rodando o código.
  - Arquivo do código [SQL](https://drive.google.com/file/d/1Q3dsS9GVYCCXzIBP3GXLAW9aZoDEQljy/view?usp=sharing)
+
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Analise do Grafico
 - Memoria/CPU - O pico máximo de byte pela memória foi de 20B, já o mínimo foi de 5B. Na memória, teve um uso máximo de 21.6% e um uso mínimo de 12.8%.
@@ -170,3 +174,4 @@
 ## Implmentação de API
  Não tinha conhecimento sobre como criar uma API e usar CRUD, comecei a estudar sobre o Spring Boot, porém não me havia mais tempo para terminar, adquirir os conhecimentos necessários e fazer a programação a tempo do prazo de entrega, por isso não concluí a task 5.
  Ainda continuo os estudos para um dia ser capaz de fazer essa task.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
