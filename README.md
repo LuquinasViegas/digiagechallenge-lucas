@@ -1,42 +1,6 @@
-## README
+## Challenge Digiage
 
-
-## What is this repository for?
-1. This repository contains some code. It might be compiling or not :)
-
-### Before you start
-
-- The project must use the specific language in the assessment. For example: Python, R, Scala, and others;
-- Consider the assessment deadline starting from the beginning of the test. If you have been invited to take the test and cannot complete it within this period, notify the person who invited you to receive instructions on what to do.
-- Document the entire investigation process for the development of the activity (README.md in your repository); the results of these tasks are as important as your thought process and decisions as you complete them, so try to document and present your hypotheses and decisions as much as possible.
-
-## Contribution guidelines and Tips
-
-1. All tips and contributions are welcome. But be aware that existing errors might not be an accident. We would appreciate if you let us know anything that you realize during the exam. We expect that and it could raise your interview evaluation up.
-
-## Repository README
-
-- Should contain the project title
-- A project description in a sentence
-- Must include a list of languages, frameworks, and/or technologies used
-- How to install and use the project (instructions)
-- Don't forget the [.gitignore](https://www.toptal.com/developers/gitignore)
-- If you are using a personal GitHub, reference that it is a challenge by Coodesh:
-
-> This is a challenge by [Coodesh](https://coodesh.com/)
-
-## Finalization and Presentation Instructions
-
-1. Add the link to the repository with your solution to the test
-2. Add the link to the presentation of your project in the README.md.
-3. Check if the README is good and make the final commit in your repository;
-4. Send and await instructions to proceed. Success and good luck. =)
-
-## Support
-
-Use [our community](https://discord.gg/rdXbEvjsWu) to ask questions about the process or send a message directly to a specialist in the platform chat.
-
-
+ Este é um desafio da [Coodesh](https://coodesh.com/)
 
 ## Um Pouco Sobre Mim
 
@@ -59,6 +23,25 @@ Use [our community](https://discord.gg/rdXbEvjsWu) to ask questions about the pr
  Mas também quando tem algum assunto que me envolve, eu me solto facilmente.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## SQL
+ Para dar inicio ao projeto do banco de dados fiz o download do sql workbench.
+ - download [MySQLWorkbench](https://cdn.mysql.com//Downloads/MySQLGUITools/mysql-workbench-community-8.0.36-winx64.msi)
+ Fiz o login com o banco de dados.
+ SQL com banco de dados foi algo novo no qual eu não conhecia, fui aprendendo enquanto fazia o programação
+
+ ### 1. Separação Por Genero.
+ Count (*) para a contagem de funcionarios, e no grupo de generos fiz a separação para saber quantos funcionarios "M" e "F" separando por generos.
+
+ ### 2. Quantidade De Funcionario Por Gênero, Ano e Aniversario.
+ Count (*) para a contagem de funcionarios, e sera feita a separação por gênero ano e aniversario do funcionario, o codigó esta dando erro por excesso de tempo de execução, como ainda não conheço muito sobre SQl não consegui resolver esse detalhe, mas fazendo a separação de cada uma das categorias da tabela com o mesmo codigo ele me apresenta sem erros o a quantidade de funcionarios, ano e aniversario.
+
+ ### 3. Media Salarial, Valor Max e Min Separado Por Gênero.
+ Selecionei o maior e menor salario separada por gênero, e a media de salario separado por gênero, usei LEFT JOIN para juntar as duas tabelas de salarios e funcionarios
+
+
+ - [Video](https://drive.google.com/file/d/1HS85wvUScABvsSHe-utMaj7rgP-Pc2GE/view?usp=sharing)rodando o código.
+ - Arquivo do código [SQL](https://drive.google.com/file/d/1Q3dsS9GVYCCXzIBP3GXLAW9aZoDEQljy/view?usp=sharing)
+
 ## Analise do Grafico
 - Memoria/CPU - O pico máximo de byte pela memória foi de 20B, já o mínimo foi de 5B. Na memória, teve um uso máximo de 21.6% e um uso mínimo de 12.8%.
 
@@ -184,5 +167,6 @@ Use [our community](https://discord.gg/rdXbEvjsWu) to ask questions about the pr
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## SQl querry 
- Task5 -
+## Implmentação de API
+ Não tinha conhecimento sobre como criar uma API e usar CRUD, comecei a estudar sobre o Spring Boot, porém não me havia mais tempo para terminar, adquirir os conhecimentos necessários e fazer a programação a tempo do prazo de entrega, por isso não concluí a task 5.
+ Ainda continuo os estudos para um dia ser capaz de fazer essa task.
